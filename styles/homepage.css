@@ -1,0 +1,87 @@
+.central-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    color:white;
+    background: #252830;
+}
+
+
+.central-wrapper > .central-left-text {
+    display: flex;
+    padding: 45px 40px;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    max-width: 50%;
+}
+
+.central-wrapper > .central-left-text > .text-1 {
+    font-size: 38px;
+    font-weight: 200;
+    margin-bottom: 18px;
+    line-height: 1.3em;
+    
+}
+
+
+
+.central-wrapper > .central-left-text > .text-2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #9b9a9a; 
+    line-height: 1.42em; 
+      
+}
+
+.central-wrapper > .central-left-text > .central-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+.central-wrapper > .central-left-text > .central-buttons > .btn-singup {
+    border-radius: 3px;
+    background: #4fc440;      
+    color: black;
+    margin-right: 12px;
+    padding: 12px 18px;
+}
+
+
+
+.central-wrapper > .central-left-text > .central-buttons > .btn-learn {
+    border-radius: 3px;
+    background: black;
+    color: white;
+    margin-right: 12px;
+    padding: 12px 18px;
+}
+
+
+.central-wrapper > .central-right-column {
+    max-width: 40%;
+    margin-top: 30px;
+    padding-top: 40px;
+}
+
+.central-wrapper > .central-right-column > .central-right-text {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    padding-left: 10px;
+    padding-right: 3px;
+    font-size: 15px;
+    
+}
+
+.central-wrapper > .central-right-column > .central-right-image img {
+    max-width: 100%;
+    margin-top: -10px;
+    height: auto;
+    padding-top: 8px;
+}

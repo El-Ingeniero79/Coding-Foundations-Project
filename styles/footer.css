@@ -1,0 +1,26 @@
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.footer-wrapper > .section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#33353b;
+    border: 1px solid #676767;
+    padding: 10px 15px 10px 15px;
+    text-align: unset;
+    
+}
+
+
+.footer-wrapper > .section > .footer-text {
+    color: white;
+    padding-right: 3px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;  
+    font-weight: 300; 
+}
